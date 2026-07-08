@@ -15,3 +15,5 @@ src/rust/node_modules
 .idea
 *.iml
 .zed
+.agents
+skills-lock.json
