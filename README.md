@@ -14,6 +14,7 @@ If a source is not working, or you want to request a source that isn't available
 ## Light Novel Source
 Light novel sources must be designed according to the following rules:
 - `get_chapter_list` - Instead of these function chapter requires you to return the volume
+{% raw %}
 ```rust
 pub fn parse_chapter_list(document: Node, root_url: String) -> Result<Vec<Chapter>> {
 	let volumes = document.select(".volume-list").array();
@@ -126,6 +127,7 @@ Check this code
 		.collect();
 
 ```
+{% endraw %}
 
 ## Contributing
 Contributions are welcome!
