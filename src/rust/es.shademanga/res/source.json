@@ -1,0 +1,14 @@
+{
+	"info": {
+		"id": "es.shademanga",
+		"lang": "es",
+		"name": "ShadeManga",
+		"version": 1,
+		"url": "https://shademanga.com",
+		"nsfw": 1
+	},
+	"listings": [
+		{ "name": "Populares" },
+		{ "name": "Novedades" }
+	]
+}

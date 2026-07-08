@@ -1,0 +1,76 @@
+[
+	{ "type": "title" },
+	{
+		"type": "select",
+		"name": "Tipo",
+		"options": ["Ver todo", "Manga", "Manhua", "Manhwa", "Novela", "One shot", "Doujinshi", "Oel"]
+	},
+	{
+		"type": "check",
+		"name": "Contenido adulto",
+		"default": false
+	},
+	{
+		"type": "group",
+		"name": "Géneros",
+		"filters": [
+			{ "type": "genre", "name": "Romance", "id": "Romance" },
+			{ "type": "genre", "name": "Drama", "id": "Drama" },
+			{ "type": "genre", "name": "Comedia", "id": "Comedia" },
+			{ "type": "genre", "name": "Webcomic", "id": "Webcomic" },
+			{ "type": "genre", "name": "Acción", "id": "Acción" },
+			{ "type": "genre", "name": "Boys Love", "id": "Boys Love" },
+			{ "type": "genre", "name": "Aventura", "id": "Aventura" },
+			{ "type": "genre", "name": "Ecchi", "id": "Ecchi" },
+			{ "type": "genre", "name": "Sobrenatural", "id": "Sobrenatural" },
+			{ "type": "genre", "name": "Comedy", "id": "Comedy" },
+			{ "type": "genre", "name": "Fantasía", "id": "Fantasía" },
+			{ "type": "genre", "name": "Yaoi", "id": "Yaoi" },
+			{ "type": "genre", "name": "Yuri", "id": "Yuri" },
+			{ "type": "genre", "name": "Harem", "id": "Harem" },
+			{ "type": "genre", "name": "Horror", "id": "Horror" },
+			{ "type": "genre", "name": "Misterio", "id": "Misterio" },
+			{ "type": "genre", "name": "Psicológico", "id": "Psicológico" },
+			{ "type": "genre", "name": "Ciencia Ficción", "id": "Ciencia Ficción" },
+			{ "type": "genre", "name": "Deportes", "id": "Deportes" },
+			{ "type": "genre", "name": "Shōnen", "id": "Shōnen" },
+			{ "type": "genre", "name": "Shoujo", "id": "Shoujo" },
+			{ "type": "genre", "name": "Seinen", "id": "Seinen" },
+			{ "type": "genre", "name": "Josei", "id": "Josei" },
+			{ "type": "genre", "name": "Slice of Life", "id": "Slice of Life" },
+			{ "type": "genre", "name": "Tragedia", "id": "Tragedia" },
+			{ "type": "genre", "name": "Thriller", "id": "Thriller" },
+			{ "type": "genre", "name": "Escolar", "id": "Escolar" },
+			{ "type": "genre", "name": "Histórico", "id": "Histórico" },
+			{ "type": "genre", "name": "Militar", "id": "Militar" },
+			{ "type": "genre", "name": "Magia", "id": "Magia" },
+			{ "type": "genre", "name": "Mecha", "id": "Mecha" },
+			{ "type": "genre", "name": "Musical", "id": "Musical" },
+			{ "type": "genre", "name": "Ciberpunk", "id": "Ciberpunk" },
+			{ "type": "genre", "name": "Recuentos de la vida", "id": "Recuentos de la vida" },
+			{ "type": "genre", "name": "Artes Marciales", "id": "Artes Marciales" },
+			{ "type": "genre", "name": "Supervivencia", "id": "Supervivencia" },
+			{ "type": "genre", "name": "Reencarnación", "id": "Reincarnation" },
+			{ "type": "genre", "name": "Apocalíptico", "id": "Apocalíptico" },
+			{ "type": "genre", "name": "Policiaco", "id": "Policiaco" },
+			{ "type": "genre", "name": "Crimen", "id": "Crimen" },
+			{ "type": "genre", "name": "Demonios", "id": "Demonios" },
+			{ "type": "genre", "name": "Vampiros", "id": "Vampiros" },
+			{ "type": "genre", "name": "Superpoderes", "id": "Superpoderes" },
+			{ "type": "genre", "name": "Realidad Virtual", "id": "Realidad Virtual" },
+			{ "type": "genre", "name": "Adult", "id": "Adult" },
+			{ "type": "genre", "name": "Erotica", "id": "Erotica" },
+			{ "type": "genre", "name": "Hentai", "id": "Hentai" }
+		]
+	},
+	{
+		"type": "sort",
+		"name": "Ordenar por",
+		"canAscend": false,
+		"options": ["Más populares", "Más recientes", "Alfabético", "Mejor valorados"],
+		"default": {
+			"index": 0,
+			"ascending": false
+		}
+	}
+]
